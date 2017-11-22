@@ -1,0 +1,19 @@
+.detail-img{
+	float: left;
+	height:300px;
+	width:280px;
+	
+}
+.detail{
+	overflow: hidden;
+	padding: 20px 20px ;
+	height: 600px;
+	background: #FFFFFF;
+	border: 1px solid red;
+}
+.detail-nr{
+	float: left;
+	width: 600px;
+	margin-left: 40px;
+	line-height: 25px;
+}

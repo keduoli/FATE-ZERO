@@ -1,0 +1,48 @@
+.list-ul span{
+	float: left;
+}
+.list-ul p{
+	float: left;
+}
+.list-ul{
+	overflow: hidden;
+	margin-top: 20px;
+}
+.list-ul li{
+	height: 25px;
+	font-size: 13px;
+	cursor: pointer;
+}
+.list-boss{
+	border: 1px solid red;
+	height: 600px;
+	background: #FFFFFF;
+}
+.list-wrapper{
+	height:25px;
+	color: #fff;
+	line-height: 25px;
+	background:hotpink;
+	font-size: 14px;
+	padding-left: 15px;
+}
+.list-ul li span{
+	padding-left: 10px;
+	color: #25A4BB;
+	display: block;
+}
+.list-ul li span:hover{
+	padding-left: 15px;
+	color: springgreen;
+	text-decoration: underline;
+}
+.list-ul li p{
+	padding-left: 5px;
+	color: mediumvioletred;
+	display: block;
+}
+.list-ul li p:hover{
+	padding-left: 10px;
+	color: red;
+	text-decoration: underline;
+}

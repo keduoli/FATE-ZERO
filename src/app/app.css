@@ -1,0 +1,33 @@
+@import "./reset.css";
+html{
+	height: 100%;
+	
+}
+body{
+	min-height: 100%;
+}
+body{
+	background: #EDF8FC url(../statics/images/background.jpg) no-repeat;
+}
+#root{
+	height: 100%;
+}
+.boss{
+	width:1024px;
+	margin: 0 auto;
+	background: #EDF8FC;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
