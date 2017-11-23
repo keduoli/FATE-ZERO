@@ -4,6 +4,7 @@ import { View as CommonHeader } from "../components/commonHeader/";
 import { View as Index } from "../pages/index/";
 import { View as Detail } from "../pages/detail/";
 import { View as List } from "../pages/list/";
+import { View as Show} from "../pages/show/"
 import { Provider } from "react-redux";
 import store from "./store";
 import "./app.css";
@@ -21,6 +22,7 @@ export default class App extends Component {
 							<Route path="detail/:id" component={Detail}></Route>
 							<Route path="list/:id" component={List}></Route>
 						</Route>
+						<Route path="show" component={Show}></Route>
 					</Router>
 				</Provider>
 			</div>

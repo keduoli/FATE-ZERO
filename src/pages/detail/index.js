@@ -1,4 +1,5 @@
-import View from "./view"
+import View from "./view";
+import reducer from "./reducer"
+ 
 
-
-export { View }
+export { View, reducer }

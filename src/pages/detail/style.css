@@ -1,3 +1,19 @@
+html{
+	height: 100%;
+	
+}
+body{
+	min-height: 100%;
+	background: #EDF8FC url(../../statics/images/background.jpg) no-repeat;
+}
+#root{
+	height: 100%;
+}
+.boss{
+	width:1024px;
+	margin: 0 auto;
+	background: #EDF8FC;
+}
 .detail-img{
 	float: left;
 	height:300px;
@@ -5,15 +21,48 @@
 	
 }
 .detail{
+	padding: 10px 0px ;
 	overflow: hidden;
-	padding: 20px 20px ;
-	height: 600px;
-	background: #FFFFFF;
-	border: 1px solid red;
+	background: #EDF8FC;
+	
 }
 .detail-nr{
 	float: left;
-	width: 600px;
+	width: 300px;
 	margin-left: 40px;
 	line-height: 25px;
+}
+.detail_left{
+	border: 1px solid red;
+	width: 830px;
+	float: left;
+	background: #FFFFFF;
+	height: 1000px;
+}
+.detail_right{
+	float: right;
+	position: relative;
+	border: 1px solid red;
+}
+.clickHover{
+	height:20px;
+	width:20px;
+	position: absolute;
+	background: #FFFFFF;
+	cursor: pointer;
+	border: 1px solid #25A4BB;
+	text-align: center;
+	line-height: 20px;
+	right: 2px;
+	top: 2px;
+}
+.clickHover:hover{
+	background: #000000;
+	color: #FFFFFF;
+}
+.scrollFixed{
+	position: fixed;
+	top:5px;
+	right: 199px;
+	border: 1px solid red;
 }

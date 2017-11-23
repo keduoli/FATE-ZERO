@@ -1,0 +1,85 @@
+.boss{
+	background: #FFFFFF;
+}
+.showHeader{
+	height:80px;
+}
+.showWrapper-left{
+	float: left;
+	width: 700px;
+}
+.showWrapper-left-logo{
+	margin-top:20px;
+	display: block;
+	float: left;
+}
+.showWrapper-left-dropMeun{
+	float: left;
+	position: relative;
+}
+.showWrapper-left-nav{
+	float: left;
+}
+.showWrapper-left-nav li{
+	float: left;
+}
+.showWrapper-left-nav li a{
+	display: block;
+	font-size: 14px;
+	line-height: 80px;
+}
+.dropMeunShow{
+	margin: 20px 0 0 20px;
+	cursor: pointer;
+	width:80px;
+	height:30px;
+	line-height: 30px;
+	box-sizing: border-box;
+	padding-left: 30px;
+	border: 1px solid #808080;
+}
+.dropMeunHover{
+	position: absolute;
+	left: 20px;
+	height: 100px;
+	width: 362px;
+	margin-top: 2px;
+	border: 1px solid red;
+	background: #FFFFFF;
+	display: none;
+}
+.showWrapper-left-dropMeun:hover .dropMeunHover{
+	display: block;
+}
+.showWrapper-left-nav{
+	margin-left: 20px;
+}
+.showWrapper-left-nav li{
+	padding: 0 15px;
+}
+.showWrapper-left-nav li a{
+	cursor: pointer;
+	color: #000000;
+}
+.showWrapper-left-nav li a:hover{
+	color: orange;
+}
+.hoverhome:hover{
+	background: #FFFFFF;
+	border: 2px solid red;
+	box-shadow: 0 0 2px;
+}
+.hoverhome:hover .showWrapper-left-nav .hoverhome a{
+	line-height: 40px;
+	height: 40px;
+	text-align: center;
+}
+.hoverhome:hover div{
+	display: block;
+}
+.hoverhome{
+	display: block;	
+}
+.hoverhome div{display: none;}
+
+

@@ -28,7 +28,7 @@ class Index extends Component {
 		return(
 			<div>
 				<div className="index-title">
-					VOA（美国之音）慢速英语,常速英语,官网最新内容在线收听。
+					<Link to="/show">VOA（美国之音）慢速英语,常速英语,官网最新内容在线收听。</Link>
 				</div>
 				<div className="swiper-container" ref="swiperContainer">
 				    <div className="swiper-wrapper">
